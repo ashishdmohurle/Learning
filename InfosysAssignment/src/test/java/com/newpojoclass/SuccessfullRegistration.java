@@ -20,7 +20,7 @@ public class SuccessfullRegistration  {
     	RequestTestData request = new RequestTestData();
     	
     	RestAssured.useRelaxedHTTPSValidation();
-    	
+    	System.out.println("Ashish");
     	
     	
         Response response = RestAssured.given().with().body(request.testData()).log().all().baseUri(BASE_URL).basePath("/api/register")
