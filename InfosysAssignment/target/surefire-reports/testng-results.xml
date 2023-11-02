@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-05T12:29:03 IST" name="Surefire suite" finished-at="2023-10-05T12:29:10 IST" duration-ms="6949">
+    <groups>
+    </groups>
+    <test started-at="2023-10-05T12:29:03 IST" name="Surefire test" finished-at="2023-10-05T12:29:10 IST" duration-ms="6949">
+      <class name="com.pojoclasses.RegisterAPITest">
+        <test-method signature="testPostRegisterSuccessfulEndpoint(com.pojoclasses.RegistrationRequest)[pri:0, instance:com.pojoclasses.RegisterAPITest@1bb266b3]" started-at="2023-10-05T12:29:09 IST" name="testPostRegisterSuccessfulEndpoint" data-provider="registrationData" finished-at="2023-10-05T12:29:09 IST" duration-ms="464" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.pojoclasses.RegistrationRequest@83ebdc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRegisterSuccessfulEndpoint -->
+        <test-method signature="testPostRegisterSuccessfulEndpoint(com.pojoclasses.RegistrationRequest)[pri:0, instance:com.pojoclasses.RegisterAPITest@1bb266b3]" started-at="2023-10-05T12:29:09 IST" name="testPostRegisterSuccessfulEndpoint" data-provider="registrationData" finished-at="2023-10-05T12:29:10 IST" duration-ms="434" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.pojoclasses.RegistrationRequest@71b3ba5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRegisterSuccessfulEndpoint -->
+        <test-method signature="testPostRegisterSuccessfulEndpoint(com.pojoclasses.RegistrationRequest)[pri:0, instance:com.pojoclasses.RegisterAPITest@1bb266b3]" started-at="2023-10-05T12:29:10 IST" name="testPostRegisterSuccessfulEndpoint" data-provider="registrationData" finished-at="2023-10-05T12:29:10 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.pojoclasses.RegistrationRequest@ff2266c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRegisterSuccessfulEndpoint -->
+      </class> <!-- com.pojoclasses.RegisterAPITest -->
+      <class name="com.newCode.TestRegisterAPI">
+        <test-method signature="registerAPITest(java.lang.String,java.lang.String)[pri:0, instance:com.newCode.TestRegisterAPI@4e268090]" started-at="2023-10-05T12:29:07 IST" name="registerAPITest" data-provider="registrationData" finished-at="2023-10-05T12:29:08 IST" duration-ms="693" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[michael.lawson@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAPITest -->
+        <test-method signature="registerAPITest(java.lang.String,java.lang.String)[pri:0, instance:com.newCode.TestRegisterAPI@4e268090]" started-at="2023-10-05T12:29:08 IST" name="registerAPITest" data-provider="registrationData" finished-at="2023-10-05T12:29:09 IST" duration-ms="438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lindsay.ferguson@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAPITest -->
+        <test-method signature="registerAPITest(java.lang.String,java.lang.String)[pri:0, instance:com.newCode.TestRegisterAPI@4e268090]" started-at="2023-10-05T12:29:09 IST" name="registerAPITest" data-provider="registrationData" finished-at="2023-10-05T12:29:09 IST" duration-ms="451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eve.holt@reqres.in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAPITest -->
+      </class> <!-- com.newCode.TestRegisterAPI -->
+      <class name="com.jsonFile.RegisterUsersTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jsonFile.RegisterUsersTest@4ef37659]" started-at="2023-10-05T12:29:06 IST" name="setup" finished-at="2023-10-05T12:29:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="registerUser()[pri:0, instance:com.jsonFile.RegisterUsersTest@4ef37659]" started-at="2023-10-05T12:29:06 IST" name="registerUser" finished-at="2023-10-05T12:29:06 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- com.jsonFile.RegisterUsersTest -->
+      <class name="com.infosys.TestRegistrationSuccessfull">
+        <test-method signature="testPostRegisterSuccessfulEndpoint()[pri:0, instance:com.infosys.TestRegistrationSuccessfull@6236eb5f]" started-at="2023-10-05T12:29:03 IST" name="testPostRegisterSuccessfulEndpoint" finished-at="2023-10-05T12:29:06 IST" duration-ms="2563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostRegisterSuccessfulEndpoint -->
+      </class> <!-- com.infosys.TestRegistrationSuccessfull -->
+      <class name="com.jsonschemavalidation.JsonSchemaTest">
+        <test-method signature="schemaValidation()[pri:0, instance:com.jsonschemavalidation.JsonSchemaTest@776b83cc]" started-at="2023-10-05T12:29:06 IST" name="schemaValidation" finished-at="2023-10-05T12:29:07 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schemaValidation -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.jsonschemavalidation.JsonSchemaTest@776b83cc]" started-at="2023-10-05T12:29:06 IST" name="setup" finished-at="2023-10-05T12:29:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- com.jsonschemavalidation.JsonSchemaTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

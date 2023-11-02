@@ -1,0 +1,15 @@
+com\infosys\Payload.class
+com\newCode\TestRegisterAPI.class
+com\infosys\TestRegistrationSuccessfull.class
+com\pojoclasses\RegistrationResponse.class
+com\jsonschemavalidation\JsonSchemaTest.class
+com\pojoclasses\RegisterAPITest.class
+com\newCode\TestData.class
+com\infosys\ListUsers.class
+com\newpojoclass\RegisterSuccessfullPojoClassResponse.class
+com\pojoclasses\TestDataProviders.class
+com\newpojoclass\RegisterSuccessfullPojoClassRequest.class
+com\newpojoclass\SuccessfullRegistration.class
+com\pojoclasses\RegistrationRequest.class
+com\newpojoclass\RequestTestData.class
+com\jsonFile\RegisterUsersTest.class
