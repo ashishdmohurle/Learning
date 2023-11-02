@@ -14,16 +14,16 @@ public class SuccessfullRegistration  {
 
     private static final String BASE_URL = "https://reqres.in/";
 
-    @Test (dataProvider = "registrationData", dataProviderClass = RequestTestData.class)
+    @Test 
     public void testRegistrion() throws IOException {
     	
-    
+    	RequestTestData request = new RequestTestData();
     	
     	RestAssured.useRelaxedHTTPSValidation();
     	
     	
     	
-        Response response = RestAssured.given().with().body(requestData).log().all().baseUri(BASE_URL).basePath("/api/register")
+        Response response = RestAssured.given().with().body(request.testData()).log().all().baseUri(BASE_URL).basePath("/api/register")
                             .header("Content-Type", "application/json")
                             .post();
 

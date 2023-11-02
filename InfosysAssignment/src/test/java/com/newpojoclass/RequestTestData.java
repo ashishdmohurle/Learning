@@ -12,7 +12,7 @@ import org.testng.annotations.DataProvider;
 
 public class RequestTestData {
 
-    @DataProvider(name = "registrationData")
+    
     public List<RegisterSuccessfullPojoClassRequest> testData() throws IOException {
     	
     	List<RegisterSuccessfullPojoClassRequest> testData = new ArrayList<>();
@@ -46,7 +46,8 @@ public class RequestTestData {
             testData.add(requestData);
 
         }
-        return testData;
+		return testData;
+       
 
     }
 
