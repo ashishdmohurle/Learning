@@ -1,0 +1,221 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-31T09:53:50.764Z",
+        "line": 4,
+        "name": "To verify adding a pet",
+        "description": "",
+        "id": "validating-petstore-apis;to-verify-adding-a-pet",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1109017700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "create pet endpoint",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.create_pet_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2603790600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I send a POST request to endpoint",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.i_send_a_post_request_to_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2003300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the response statusCode should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.stepdefinitions.the_response_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36769000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the pet should be created successfully with passed details",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.the_pet_should_be_created_successfully_with_passed_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPet"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T09:53:54.580Z",
+        "line": 10,
+        "name": "To verify updating an existing pet details",
+        "description": "",
+        "id": "validating-petstore-apis;to-verify-updating-an-existing-pet-details",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14998200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "update pet details endpoint",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.update_pet_details_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 497509000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I send a PUT request to endpoint",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.i_send_a_put_request_to_endpoint()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the response statusCode should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.stepdefinitions.the_response_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24153200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the pet details should get updated successfully with passed details",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.the_pet_details_should_get_updated_successfully_with_passed_details()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdatePet"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-10-31T09:53:55.119Z",
+        "line": 16,
+        "name": "To verify retriving the pet details by id",
+        "description": "",
+        "id": "validating-petstore-apis;to-verify-retriving-the-pet-details-by-id",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2001200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "fetching the pet details endpoint",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.fetching_the_pet_details_endpoint()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 521996500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I get the pet details by id",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.i_get_the_pet_details_by_id()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the response statusCode should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 34
+                }
+              ],
+              "location": "stepdefinitions.stepdefinitions.the_response_status_code_should_be(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25870900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the pet details should be retrieved successfully",
+            "match": {
+              "location": "stepdefinitions.stepdefinitions.the_pet_details_should_be_retrieved_successfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPet"
+          }
+        ]
+      }
+    ],
+    "name": "Validating PetStore APIs",
+    "description": "",
+    "id": "validating-petstore-apis",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/petstore.feature",
+    "tags": []
+  }
+]
