@@ -6,6 +6,7 @@ package Test.Test;
  */
 public class App 
 {
+    String password = AshishQwwrwqe2344
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
